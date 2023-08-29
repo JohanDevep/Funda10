@@ -1,0 +1,68 @@
+/* capacitaciones */
+.capacitaciones {
+  background-color: #ffffff;
+  margin-top: 0px;
+  margin-left: -10px;
+  left: 0;
+  overflow: hidden;
+}
+
+.titulo-capacitaciones {
+  background-color: #ffffff;
+  background-size: cover;
+  border: 5px solid;
+  border-color: #000000;
+  left: 0;
+  overflow: hidden;
+}
+
+.nuestras-capacitaciones {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.Texto-card {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+.group {
+  object-fit: contain;
+}
+
+.image-2 {
+  object-fit: contain;
+}
+
+.group-2 {
+  object-fit: contain;
+}
+
+.image-3 {
+  object-fit: contain;
+}
+
+.group-3 {
+  object-fit: contain;
+}
+.image-4 {
+
+  object-fit: contain;
+}
+.group-4 {
+
+}
+.image-5 {
+  object-fit: contain;
+
+}
