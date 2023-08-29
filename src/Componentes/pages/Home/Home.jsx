@@ -19,7 +19,6 @@ import CardCorporativos from "./CardCorporativos/CardCorporativos";
 import Facturacion from "./CardFacturacion/DatosFacturacion";
 import CardFacturacion from "./CardFacturacion/CardFacturacion";
 
-
 export const Home = () => {
   return (
     <inicio className="inicio">
@@ -74,7 +73,6 @@ export const Home = () => {
                 titulo={datos.titulo}
                 descripcion={datos.descripcion}
                 imagen={datos.imagen}
-
               />
             )}
           </div>
@@ -157,7 +155,6 @@ export const Home = () => {
                   />
                   <div className="texto-beneficio">Sin costos de liquidación.</div>
                 </div>
-
                 <div className="beneficio-general">
                   <img
                     className="circulo-logo"
@@ -211,7 +208,6 @@ export const Home = () => {
                     alt="Ellipse outline"
                     src="images/circulo.png"
                   />
-
                   <p className="texto-beneficio">Sin costo de exámenes médicos.</p>
                 </div>
                 <div className="beneficio-general">
@@ -241,7 +237,6 @@ export const Home = () => {
                 />
               )}
             </div>
-
           </div>
         </div >
       </div >
