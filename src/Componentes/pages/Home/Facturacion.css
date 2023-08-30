@@ -1,6 +1,7 @@
 .facturacion {
     padding: 24px;
 }
+
 .nuestras-facturacion {
     color: #422b57;
     font-family: cursive;
@@ -10,14 +11,15 @@
     line-height: normal;
     text-align: center;
 }
-.img-factu{
+
+.img-factu {
     height: 335px;
     width: 300px;
     object-fit: contain;
     float: left;
 }
 
-.texto-factu{
+.texto-factu {
     color: #412a56;
     font-family: "Arial-Regular", Helvetica;
     font-size: 35px;
@@ -29,10 +31,23 @@
     grid-auto-rows: minmax(100px, auto);
     text-align: left;
 }
+
 .facturacionwrapper {
     display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    gap: 50px;
- 
+    gap: 20px;
+    align-items: center;
+
+}
+
+.facturation__items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.facturation__items .facturation__item {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 24px;
 }
